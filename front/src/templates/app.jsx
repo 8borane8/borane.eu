@@ -58,6 +58,8 @@ return {
                 <p>&copy; Tous droits réservés 2023 Borane.</p>
             </div>
         </footer>
+
+        <script>const API_BASE_URL = "{process.env.API_BASE_URL}";</script>
     </>,
 
     onrequest: null

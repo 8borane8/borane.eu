@@ -102,6 +102,14 @@ return {
                     <img src="/assets/previews/weeldermods.png" alt="site" width="360" height="202" loading="lazy" />
                     Boutique d'un développeur indépendant de mods FiveM.
                 </a>
+                <a href="https://ski-rent.fr" target="_blank">
+                    <img src="/assets/previews/ski-rent.png" alt="site" width="360" height="202" loading="lazy" />
+                    Un comparateur de magasin de location ski et snowboard.
+                </a>
+                <a href="https://topstream.fr" target="_blank">
+                    <img src="/assets/previews/topstream.png" alt="site" width="360" height="202" loading="lazy" />
+                    Un site de streaming payant nouvelle génération.
+                </a>
             </div>
         </section>
     </>,

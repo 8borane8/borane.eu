@@ -7,6 +7,6 @@
         "build": "node src/index.js"
     },
     "dependencies": {
-        "@borane/slick": "^4.0.0"
+        "@borane/slick": "^5.0.0"
     }
 }

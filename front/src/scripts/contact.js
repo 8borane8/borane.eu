@@ -18,7 +18,7 @@ phone.addEventListener("input", () => {
 
 
 let contactRequestSent = false;
-document.querySelector("form").addEventListener("submit", event => {
+document.querySelector("form").addEventListener("submit", async event => {
     event.preventDefault();
 
     if(contactRequestSent)
@@ -26,11 +26,10 @@ document.querySelector("form").addEventListener("submit", event => {
 
     contactRequestSent = true;
 
-    fetch("https://api.borane.eu/contact", {
+    await fetch(`${API_BASE_URL}/contact`, {
         method: "POST",
         headers: {
-            "Content-Type": "application/json",
-            "Accept": "application/json"
+            "Content-Type": "application/json"
         },
         body: JSON.stringify({
             object: object.value,
